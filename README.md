@@ -26,3 +26,5 @@ Our final Dashboard will be presented on Tableau with all the findings and ML pr
 
 ## The Data 
 
+The data that will be used in this analysis include a csv with opening/closing information for all NASDAQ, S&P500, and NYSE listed companies which is updated weekly. There are also csv's for tweets about the stock tickers of each of the top five technology companies (Amazon, Tesla, Google, Apple, Microsoft) from years 2015 to 2020. The planned ERD for the database that will connect each of these data sources looks like: 
+
