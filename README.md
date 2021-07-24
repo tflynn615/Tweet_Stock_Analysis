@@ -29,3 +29,11 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 The data that will be used in this analysis include a csv with opening/closing information for all NASDAQ, S&P500, and NYSE listed companies which is updated weekly. There are also csv's for tweets about the stock tickers of each of the top five technology companies (Amazon, Tesla, Google, Apple, Microsoft) from years 2015 to 2020. The planned ERD for the database that will connect each of these data sources looks like: 
 
 ![rough_stock_erd.png](Deliverable_1/ERD_v.1/rough_stock_erd.PNG)
+
+## Machine Learning Model 
+
+This analysis will use a neural network with Relu activation to model the correlation between volume of tweets and perception of tweets against the change in daily price. 
+
+The current plan for the model is: 
+
+![Blank diagram - Page 2.pdf](Deliverable_1/Blank diagram - Page 2.pdf)
