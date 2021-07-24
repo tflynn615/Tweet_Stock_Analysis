@@ -36,4 +36,4 @@ This analysis will use a neural network with Relu activation to model the correl
 
 The current plan for the model is: 
 
-![Blank diagram - Page 2.pdf](Deliverable_1/Blank diagram - Page 2.pdf)
+![MM_Model.png](Deliverable_1/MM_Model.png)
