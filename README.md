@@ -2,12 +2,12 @@
 
 ## Purpose 
 
-The purpose of this project is to analyze the correlation, if any, that engagement of a stock's ticker on Twitter has on it's change from opening to closing price. 
+The purpose of this project is to analyze the correlation, if any, that engagement/activity of a stock's ticker on Twitter has on it's change from opening to closing price. 
 
 ## Technology 
 
   ### Data Cleaning and Analysis
-  Excel and Pandas will be used to clean the data and perform an exploratory analysis. Further analysis and manipulation will be completed using Python. 
+  Excel csvs will be used to import the data and Pandas will be used to clean the data and perform an exploratory analysis. Further analysis and manipulation will be completed using Python before the data is imported to our PostgresSQL database. 
 
 
   Additionally VADER Sentiment Analysis will be used to get the overall sentiment of the tweet to turn string data into int data for a ML model & analysis.
