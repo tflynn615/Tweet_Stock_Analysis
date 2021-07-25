@@ -7,12 +7,12 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 ## Technology 
 
   ### Data Cleaning and Analysis
-   Excel and Pandas will be used to clean the data and perform an exploratory analysis. Further analysis and manipulation will be completed using Python. 
+  Excel and Pandas will be used to clean the data and perform an exploratory analysis. Further analysis and manipulation will be completed using Python. 
 
 
   Additionally VADER Sentiment Analysis will be used to get the overall sentiment of the tweet to turn string data into int data for a ML model & analysis.
   
-  Positive, Neutral, and Negative comments will be derived to formulate impact onto stock market activity.
+  Sentiment includes Positive, Neutral, and Negative comments and will be derived to formulate impact onto stock market activity.
 
 
   ### Database Storage
@@ -20,7 +20,7 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 
 
   ### Machine Learning
-  SciKitLearn or Tensorflow will be the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or   a regression model. 
+  SciKitLearn or Tensorflow will be the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or a regression model. Machine Learning model diagram will be updated upon further discovery throughout the process.
 
 
   ### Dashboard
