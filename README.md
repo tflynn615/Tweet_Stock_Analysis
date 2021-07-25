@@ -11,6 +11,8 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 
 
   Additionally VADER Sentiment Analysis will be used to get the overall sentiment of the tweet to turn string data into int data for a ML model & analysis.
+  
+  Positive, Neutral, and Negative comments will be derived to formulate impact onto stock market activity.
 
 
   ### Database Storage
@@ -18,7 +20,7 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 
 
   ### Machine Learning
-  SciKitLearn or Tensorflow will be  the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or   a regression model. 
+  SciKitLearn or Tensorflow will be the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or   a regression model. 
 
 
   ### Dashboard
