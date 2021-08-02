@@ -1,11 +1,3 @@
--- Creating tables Example
-CREATE TABLE departments (
-     dept_no VARCHAR(4) NOT NULL,
-     dept_name VARCHAR(40) NOT NULL,
-     PRIMARY KEY (dept_no),
-     UNIQUE (dept_name)
-);
-
 
 --Date, Low, Open, Volume, High, Close, Adjusted Close, tweet_count
 
@@ -197,15 +189,4 @@ CREATE TABLE tesla_final (
 	Date Date NOT NULL,
 	tweet_count Int NOT NULL,
 	price_action Decimal NOT NULL
-);
-
-
-
-aws s3 cp s3://bucket/ap_test.csv /mydirectory/file.csv
-psql -h your_rds.amazonaws.com -U samuelchoi314 -d mypostgresdb -c '\COPY table FROM ''file.csv'' CSV HEADER'
-
-
-psql=> SELECT aws_s3.table_import_from_s3(
- 'ap_test', '', '(format csv)',
- 'BUCKET_NAME', 'path/to/object', 'us-east-2'
 );
