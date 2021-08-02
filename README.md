@@ -2,7 +2,7 @@
 
 ## Purpose 
 
-The purpose of this project is to analyze the correlation, if any, that engagement/activity of a stock's ticker on Twitter has on it's change from opening to closing price. 
+The purpose of this project is to analyze the correlation, if any, that engagement/activity of a stock's ticker on Twitter has on it's selling activity on the NASDAQ. The question that we'd like to answer is: can we predict how much a stock will sell based on how it's trending on social media? 
 
 ## Technology 
 
