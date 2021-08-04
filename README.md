@@ -20,7 +20,7 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 
 
   ### Machine Learning
-  SciKitLearn or Tensorflow will be the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or a regression model. Machine Learning model diagram will be updated upon further discovery throughout the process.
+  SciKitLearn and Tensorflow will be the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or a regression model. Machine Learning model diagram will be updated upon further discovery throughout the process.
 
 
   ### Dashboard
