@@ -14,4 +14,4 @@
   - the data for our model was split to the `train-test-split`'s default value, which allocates 75% of the data for trainig and 25% of testing.
 
 - planation of model choice, including limitations and benefits
-  - Three ML model's were used, first `LinearRegression` was used to find a correlation in the dataset if any. After finding a correlation between `volume` and `tweet-activity` `LogisticRegression` model was used to see how well the model could predict stock liquidity.    
+  - Three ML model's were used, first `LinearRegression` was used to find a correlation in the dataset if any. After finding a correlation between `volume` and `tweet-activity` `LogisticRegression` model was used to see how well the model could predict stock liquidity.  
