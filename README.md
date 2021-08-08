@@ -36,7 +36,7 @@ The data that will be used in this analysis include a csv with opening/closing i
 
 #### Tweet Volume
 
-![tweet_volume.png](../analysis_images/tweet_volume.png) 
+![tweet_volume.png](analysis_images/tweet_volume.png) 
 
 *Purpose:* Find which companies are receiving the most tweets and interactions. 
 
