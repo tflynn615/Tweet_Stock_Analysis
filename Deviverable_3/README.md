@@ -1,7 +1,7 @@
 ## Deliverable 3
 
 ### Database Connection
-Data collected from Kaggle and Yahoo Finance were cleaned using 'pandas' and brought into our postgress sql database, 'pgadmin 4'. Ticker tables (x5) were brought into our database and consolidated to form our master table data using postgres and connected to our ipynb file for machine learning.
+Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and brought into our postgress sql database, `pgadmin 4`. Ticker tables (x5) were brought into our database and consolidated to form our master table data using postgres and connected to our ipynb file for machine learning.
 
 
 ### Machine Learning 
