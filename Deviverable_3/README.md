@@ -36,8 +36,8 @@ Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and bro
 
 ![tweet_volume.png](../analysis_images/tweet_volume.png) 
 
-_Purpose:_ Find which companies are receiving the most tweets and interactions. 
+_Purpose_: Find which companies are receiving the most tweets and interactions. 
 
-_Analysis:_ 
+_Analysis_: 
 - Sum of all tweets 2015-2019 
 - Color by sum of likes, comments, and retweets 
