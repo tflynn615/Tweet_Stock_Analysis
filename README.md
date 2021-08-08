@@ -33,7 +33,9 @@ The ERD for the database that will connect each of these data sources is shown b
   **[Click Here to Visit Our Tableau Public Dashboard.](https://public.tableau.com/app/profile/tara.flynn/viz/Tweet_Stock_Analysis/Dashboard12?publish=yes)** 
 
 #### Dashboard Pre-Construction
-![dashboard_planning.png](analysis_images/dashboard_planning.png) 
+![dashboard_planning.png](analysis_images/dashboard_planning.png)
+
+*Purpose:* Identify framework of widgets, interactive elements, and portraying key stories using data analysis of Twitter's impact on NASDAQ Stocks.
 
 #### Tweet Volume
 
