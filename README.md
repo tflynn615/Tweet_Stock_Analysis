@@ -38,10 +38,8 @@ This analysis will use a neural network with Relu activation to model the correl
 
 The current plan for the model is: 
 
-![MM_Model.png](Deliverable_1/MM_Model.png)
-
-- Description of preliminary data preprocessing
-  - the data pre-processing was done by first summing up the # of tweets for the day as `tweet_activity`and keeping the `date`, `volume` and `price-anction` for each ticker. Then seperating each ticker into their own csv file and exporting it into the ML model.
+Description of preliminary data preprocessing
+ - the data pre-processing was done by first summing up the # of tweets for the day as `tweet_activity`and keeping the `date`, `volume` and `price-anction` for each ticker. Then seperating each ticker into their own csv file and exporting it into the ML model.
 
 - Description of preliminary feature engineering and preliminary feature selection, including their decision-making process
   - `tweet_activity` : was the tweet dataset summed up to it's most important factor because of it relation to the stock's price. selected as a feature.
