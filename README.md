@@ -19,12 +19,13 @@ The purpose of this project is to analyze the correlation, if any, that engageme
   The database utilized was PostgresSQL with pgadmin 4. Data collected from Kaggle and Yahoo Finance were cleaned during the pre-processing stages with `pandas` and brought into our environment. 5 Ticker tables were brought into our database, 1 for each ticker, and further consolidated to form our master table data. Postgres database was then connected our our machine learning ipynb file for further analysis for prediction and accuracy.
 
   ### Machine Learning
-  SciKitLearn and Tensorflow will be the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or a regression model. Machine Learning model diagram will be updated upon further discovery throughout the process.
+  SciKitLearn and Tensorflow is the ML library utilized. Depending on what the data looks like after cleaning we will decide between a classification or a regression model. Machine Learning model diagram will be updated upon further discovery throughout the process.
 
 
   ### Dashboard
-  Our final Dashboard will be presented on Tableau with all the findings and ML predictions.
-
+  Our final Dashboard is LIVE and available on Tableau public with our findings and ML predictions. Analysis includes dynamic integrations between tweet, date, and stock ticker to provide visual grasp to our end users on how tweets and the stock exchange share a relationship in stock liquidity. Analysis of our findings include Tweet Impacts on Stock Prices and Examining Tweet Engagement. Our visualizations can be found by clicking the link below.
+  **URL**: https://public.tableau.com/app/profile/tara.flynn/viz/Bootcamp_Roughdraft/Dashboard1
+  
 ## The Data 
 
 The data that will be used in this analysis include a csv with opening/closing information for all NASDAQ, S&P500, and NYSE listed companies which is updated weekly. There are also csv's for tweets about the stock tickers of each of the top five technology companies (Amazon, Tesla, Google, Apple, Microsoft) from years 2015 to 2020. The planned ERD for the database that will connect each of these data sources looks like: 
