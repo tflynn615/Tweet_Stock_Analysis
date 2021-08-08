@@ -16,7 +16,7 @@ Presentation slides to capture project summary, selection journey, technology us
   ### Data Cleaning and Analysis
   Excel csvs from Kaggle were used to import the data for tweet data, and Yahoo Finance was utilized for stock/ticker data (Apple, Tesla, Google, Amazon, and Microsoft). `Pandas` was to clean the data and perform an exploratory analysis. Further analysis and manipulation was completed using Python before the data was imported to our PostgresSQL database and connected to our machine learning model.
 
-The planned ERD for the database that will connect each of these data sources looks like: 
+The ERD for the database that will connect each of these data sources is shown below.
 
 ![rough_stock_erd.png](Deliverable_1/ERD_v.1/rough_stock_erd.PNG)
 
