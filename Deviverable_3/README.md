@@ -35,6 +35,8 @@ Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and bro
 
 ### Dashboard and Analysis
 
+**[Click Here to Visit Our Dashboard](https://public.tableau.com/views/Tweet_Stock_Analysis/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)**
+
 #### Tweet Volume
 
 ![tweet_volume.png](../analysis_images/tweet_volume.png) 
@@ -103,7 +105,3 @@ Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and bro
 - Heat map of Tweets with more than 1,000 combined retweets, likes, and comments 
 - Color and size by sum of engagement 
 - Filter by date 
-
-#### Dasboard 
-
-**[Click Here to Visit Our Dashboard](https://public.tableau.com/views/Tweet_Stock_Analysis/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)**
