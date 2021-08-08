@@ -10,8 +10,7 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 
 ## Presentation Slides
 
-The presentation can also be accessed to its direct google slides link through the link below.
-URL: [Google Docs Presentation](https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit#slide=id.g7ce6850189_0_111)
+Updated presentation slides to capture project summary, selection journey, technology used, data exploration, data analysis, machine learning, data visualization, conclusion and iteration opportunities. **[Click Here to Access Presentation Slides](https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit?usp=sharing)**
 
 ## Technology 
 
