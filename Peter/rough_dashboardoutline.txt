@@ -1,0 +1,7 @@
+**Rough Outline for dashboard
+	Introducing all companies tweets at the top, 
+	Allow filtering by company by ticker_symbol
+	Displaying word cloud by the company
+	Linking to their respective tweet count over time,
+	Display daily percent change
+	Total daily volume.

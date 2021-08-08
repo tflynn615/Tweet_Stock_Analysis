@@ -1,0 +1,192 @@
+
+--Date, Low, Open, Volume, High, Close, Adjusted Close, tweet_count
+
+--ap_test old
+CREATE TABLE ap_test (
+	Date Date NOT NULL,
+	Low Decimal NOT NULL,
+	Open Decimal NOT NULL,
+	Volume Int Not NuLL,
+	High Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Adjusted_Close Decimal NOT NULL,
+	tweet_count Int NOT NULL
+);
+
+--testing import success in table for ap_test
+SELECT * FROM amzn_final;
+
+
+
+--Original test data stock tickers
+
+-- CREATE TABLE ap_test (
+-- 	Date Date NOT NULL,
+-- 	Low Decimal NOT NULL,
+-- 	Open Decimal NOT NULL,
+-- 	Volume Int Not NuLL,
+-- 	High Decimal NOT NULL,
+-- 	Close Decimal NOT NULL,
+-- 	Adjusted_Close Decimal NOT NULL,
+-- 	tweet_count Int NOT NULL
+-- );
+
+CREATE TABLE ap_test (
+	Date Date NOT NULL,
+	Low Decimal NOT NULL,
+	Open Decimal NOT NULL,
+	Volume Int Not NuLL,
+	High Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Adjusted_Close Decimal NOT NULL,
+	tweet_count Int NOT NULL
+);
+
+CREATE TABLE go_test (
+	Date Date NOT NULL,
+	Low Decimal NOT NULL,
+	Open Decimal NOT NULL,
+	Volume Int Not NuLL,
+	High Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Adjusted_Close Decimal NOT NULL,
+	tweet_count Int NOT NULL
+);
+
+CREATE TABLE amzn_test (
+	Date Date NOT NULL,
+	Low Decimal NOT NULL,
+	Open Decimal NOT NULL,
+	Volume Int Not NuLL,
+	High Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Adjusted_Close Decimal NOT NULL,
+	tweet_count Int NOT NULL
+);
+
+CREATE TABLE msft_test (
+	Date Date NOT NULL,
+	Low Decimal NOT NULL,
+	Open Decimal NOT NULL,
+	Volume Int Not NuLL,
+	High Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Adjusted_Close Decimal NOT NULL,
+	tweet_count Int NOT NULL
+);
+
+CREATE TABLE tesla_test (
+	Date Date NOT NULL,
+	Low Decimal NOT NULL,
+	Open Decimal NOT NULL,
+	Volume Int Not NuLL,
+	High Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Adjusted_Close Decimal NOT NULL,
+	tweet_count Int NOT NULL
+);
+
+SELECT * FROM amzn_test;
+
+--Add Price Action Column (Close - Open).
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action
+FROM amzn_test
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action
+FROM ap_test
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action
+FROM go_test
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action
+FROM tesla_test
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action
+FROM msft_test
+
+--Add Ticker Column.
+
+ALTER TABLE amzn_test
+Add Ticker VARCHAR(20)
+
+ALTER TABLE ap_test
+Add Ticker VARCHAR(20)
+
+ALTER TABLE go_test
+Add Ticker VARCHAR(20)
+
+ALTER TABLE msft_test
+Add Ticker VARCHAR(20)
+
+ALTER TABLE tesla_test
+Add Ticker VARCHAR(20)
+
+-- ALTER TABLE amzn_test ALTER COLUMN ticker SET DEFAULT 'Amazon';
+
+--Adding Ticker Names for new columns in tables.
+UPDATE amzn_test SET ticker = 'Amazon' WHERE ticker is NULL;
+UPDATE ap_test SET ticker = 'Apple' WHERE ticker is NULL;
+UPDATE go_test SET ticker = 'Google' WHERE ticker is NULL;
+UPDATE msft_test SET ticker = 'Microsoft' WHERE ticker is NULL;
+UPDATE tesla_test SET ticker = 'Tesla' WHERE ticker is NULL;
+
+
+SELECT * FROM msft_test;
+
+--Table with Price Action and Added Ticker--
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action, "ticker"
+FROM amzn_test
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action, "ticker"
+FROM ap_test
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action, "ticker"
+FROM go_test
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action, "ticker"
+FROM msft_test
+
+SELECT date, low, open, volume, high, close, adjusted_close, tweet_count, close - open as price_action, "ticker"
+FROM tesla_test
+
+
+--Creating the tables for all 5 stock tickers, pre-processing. Issue...this doesn't have identifiers to combine.
+
+SELECT * FROM amzn_final;
+
+CREATE TABLE appl_final (
+	Volume Int Not NuLL,	
+	Date Date NOT NULL,
+	tweet_count Int NOT NULL,
+	price_action Decimal NOT NULL
+);
+
+CREATE TABLE goog_final (
+	Volume Int Not NuLL,	
+	Date Date NOT NULL,
+	tweet_count Int NOT NULL,
+	price_action Decimal NOT NULL
+);
+
+CREATE TABLE amzn_final (
+	Volume Int Not NuLL,	
+	Date Date NOT NULL,
+	tweet_count Int NOT NULL,
+	price_action Decimal NOT NULL
+);
+
+CREATE TABLE msft_final (
+	Volume Int Not NuLL,	
+	Date Date NOT NULL,
+	tweet_count Int NOT NULL,
+	price_action Decimal NOT NULL
+);
+
+CREATE TABLE tesla_final (
+	Volume Int Not NuLL,	
+	Date Date NOT NULL,
+	tweet_count Int NOT NULL,
+	price_action Decimal NOT NULL
+);
