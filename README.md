@@ -9,12 +9,6 @@ The purpose of this project is to analyze the correlation, if any, that engageme
   ### Data Cleaning and Analysis
   Excel csvs will be used to import the data and Pandas will be used to clean the data and perform an exploratory analysis. Further analysis and manipulation will be completed using Python before the data is imported to our PostgresSQL database. 
 
-
-  Additionally VADER Sentiment Analysis will be used to get the overall sentiment of the tweet to turn string data into int data for a ML model & analysis.
-  
-  Sentiment includes Positive, Neutral, and Negative comments and will be derived to formulate impact onto stock market activity.
-
-
   ### Database Storage
   The database utilized was PostgresSQL with pgadmin 4. Data collected from Kaggle and Yahoo Finance were cleaned during the pre-processing stages with `pandas` and brought into our environment. 5 Ticker tables were brought into our database, 1 for each ticker, and further consolidated to form our master table data. Postgres database was then connected our our machine learning ipynb file for further analysis for prediction and accuracy.
 
