@@ -1,5 +1,8 @@
 ## Deliverable 3
 
+### Presentation Slides
+Updated presentation slides to capture project summary, selection journey, technology used, data exploration, data analysis, machine learning, data visualization, conclusion and iteration opportunities. **[Click Here to Access Presentation Slides](https://https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit#slide=id.ge75047b6e5_1_136)**
+
 ### Database Connection
 Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and brought into our postgress sql database, `pgadmin 4`. Ticker tables (x5) were brought into our database and consolidated to form our master table data using postgres and connected to our ipynb file for machine learning.
 
