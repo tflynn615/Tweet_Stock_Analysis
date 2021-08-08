@@ -1,4 +1,4 @@
-## Del 3
+## Deliverable 3
 
 ### ML 
 - Description of preliminary data preprocessing
