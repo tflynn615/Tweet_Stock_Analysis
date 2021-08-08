@@ -16,8 +16,7 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 
 
   ### Database Storage
-  PostgreSQL is the database we intend to use, since we are working with ‘.csv’ data files. and we will integrate Tableau to display the data.
-
+  The database utilized was PostgresSQL with pgadmin 4. Data collected from Kaggle and Yahoo Finance were cleaned during the pre-processing stages with `pandas` and brought into our environment. 5 Ticker tables were brought into our database, 1 for each ticker, and further consolidated to form our master table data. Postgres database was then connected our our machine learning ipynb file for further analysis for prediction and accuracy.
 
   ### Machine Learning
   SciKitLearn and Tensorflow will be the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or a regression model. Machine Learning model diagram will be updated upon further discovery throughout the process.
