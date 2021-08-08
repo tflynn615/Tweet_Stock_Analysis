@@ -32,6 +32,9 @@ The ERD for the database that will connect each of these data sources is shown b
   
   **[Click Here to Visit Our Tableau Public Dashboard.](https://public.tableau.com/app/profile/tara.flynn/viz/Tweet_Stock_Analysis/Dashboard12?publish=yes)** 
 
+#### Dashboard Pre-Construction
+!['Data Visualization - Planning'.png](Sam/'Data Visualization - Planning'.png) 
+
 #### Tweet Volume
 
 ![tweet_volume.png](analysis_images/tweet_volume.png) 
