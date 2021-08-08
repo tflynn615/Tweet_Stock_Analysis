@@ -36,8 +36,70 @@ Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and bro
 
 ![tweet_volume.png](../analysis_images/tweet_volume.png) 
 
-_Purpose_: Find which companies are receiving the most tweets and interactions. 
+*Purpose:* Find which companies are receiving the most tweets and interactions. 
 
-_Analysis_: 
+*Analysis:* 
 - Sum of all tweets 2015-2019 
 - Color by sum of likes, comments, and retweets 
+
+#### Price Action Over Time 
+
+![heat_map.png](../analysis_images/heat_map.png) 
+
+*Purpose:* Identify the companies seeing the most change in daily price. 
+
+*Analysis:* 
+- Yearly sum of Price Action per Company 
+- Color based on Price Action 
+
+#### Scatter Plot of Tweet and Stock Volumes 
+
+![scatter_plot.png](../analysis_images/scatter_plot.png) 
+
+*Purpose:* Identify the correlation between twitter activity and stock liquidity to align with machine learning. 
+
+*Analysis:* 
+- Scatter plot of Tweet Volume against Stock Volume 
+- Size based on Tweet Volume 
+- Trend line to indicate linear correlation 
+- Color by company name 
+- URL Action to Explore Machine Learning 
+
+#### Twitter and Stock Volume Over Time 
+
+![volume_time.png](../analysis_images/volume_time.png)
+
+*Purpose:* Can we identify any spikes in the Twitter and Stock volumes. 
+
+*Analysis:* 
+- A bar chart of all Tweet Volume 
+- A line chart of Tweet Volume with colors by Company 
+- Both plotted again Month-Year dates 
+- URL Action to Explore Machine Learning
+
+#### Popular Authors 
+
+![pop_authors.png](../analysis_images/pop_authors.png) 
+
+*Purpose:* Identify Tweet authors that may be driving spikes in engagement. 
+
+*Analysis:* 
+- Bar chart of authors and count of tweets 
+- Bar chart of authors and sum of likes, comments, and retweets 
+- Sorted by Count of Tweets 
+- Color by company name 
+- Filter by date 
+
+#### Popular Tweets 
+
+![pop_tweets.png](../analysis_images/pop_tweets.png) 
+
+*Purpose:* Use bodies of popular Tweets to identify if any current events driving spikes in social media engagement. 
+
+*Analysis:* 
+- Heat map of Tweets with more than 1,000 combined retweets, likes, and comments 
+- Color and size by sum of engagement 
+- Filter by date 
+
+
+**[Click Here to Visit Our Dashboard](https://public.tableau.com/views/Tweet_Stock_Analysis/Dashboard12?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)**
