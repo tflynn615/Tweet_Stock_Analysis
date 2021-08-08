@@ -46,7 +46,7 @@ The data that will be used in this analysis include a csv with opening/closing i
 
 #### Price Action Over Time 
 
-![heat_map.png](../analysis_images/heat_map.png) 
+![heat_map.png](analysis_images/heat_map.png) 
 
 *Purpose:* Identify the companies seeing the most change in daily price. 
 
@@ -56,7 +56,7 @@ The data that will be used in this analysis include a csv with opening/closing i
 
 #### Scatter Plot of Tweet and Stock Volumes 
 
-![scatter_plot.png](../analysis_images/scatter_plot.png) 
+![scatter_plot.png](analysis_images/scatter_plot.png) 
 
 *Purpose:* Identify the correlation between twitter activity and stock liquidity to align with machine learning. 
 
@@ -69,7 +69,7 @@ The data that will be used in this analysis include a csv with opening/closing i
 
 #### Twitter and Stock Volume Over Time 
 
-![volume_time.png](../analysis_images/volume_time.png)
+![volume_time.png](analysis_images/volume_time.png)
 
 *Purpose:* Can we identify any spikes in the Twitter and Stock volumes. 
 
@@ -81,7 +81,7 @@ The data that will be used in this analysis include a csv with opening/closing i
 
 #### Popular Authors 
 
-![pop_authors.png](../analysis_images/pop_authors.png) 
+![pop_authors.png](analysis_images/pop_authors.png) 
 
 *Purpose:* Identify Tweet authors that may be driving spikes in engagement. 
 
@@ -94,7 +94,7 @@ The data that will be used in this analysis include a csv with opening/closing i
 
 #### Popular Tweets 
 
-![pop_tweets.png](../analysis_images/pop_tweets.png) 
+![pop_tweets.png](analysis_images/pop_tweets.png) 
 
 *Purpose:* Use bodies of popular Tweets to identify if any current events driving spikes in social media engagement. 
 
