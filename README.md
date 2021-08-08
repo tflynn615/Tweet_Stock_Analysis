@@ -7,6 +7,11 @@ The purpose of this project is to analyze the correlation, if any, that engageme
  - Can we predict how much a stock will sell based on how it's trending on social media?
  - Does tweets impact price action?
 
+## Presentation Slides
+
+The presentation can also be accessed to its direct google slides link through the link below.
+URL: https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit#slide=id.g7ce6850189_0_111
+
 ## Technology 
 
   ### Data Cleaning and Analysis
@@ -57,8 +62,3 @@ This analysis will use a neural network with Relu activation to model the correl
 
 **Description of current accuracy score:**
  - As mentioned above the current model yeilds an accuracy score of 97%. Meaning the model can predict if a given stock is liquid (above avg daily volume ) feeding the dataset with extreme accuracy. 
-
-## Presentation Slides
-
-The presentation can also be accessed to its direct google slides link through the link below.
-URL: https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit#slide=id.g7ce6850189_0_111
