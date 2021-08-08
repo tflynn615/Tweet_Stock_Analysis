@@ -15,13 +15,13 @@ URL: https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6Lhwhcx
 ## Technology 
 
   ### Data Cleaning and Analysis
-  Excel csvs will be used to import the data and Pandas will be used to clean the data and perform an exploratory analysis. Further analysis and manipulation will be completed using Python before the data is imported to our PostgresSQL database. 
+  Excel csvs from Kaggle will be used to import the data for tweet data, and Yahoo Finance for stock data. `Pandas` was to clean the data and perform an exploratory analysis. Further analysis and manipulation was completed using Python before the data was imported to our PostgresSQL database and connected to our machine learning model. 
 
   ### Database Storage
   The database utilized was PostgresSQL with pgadmin 4. Data collected from Kaggle and Yahoo Finance were cleaned during the pre-processing stages with `pandas` and brought into our environment. 5 Ticker tables were brought into our database, 1 for each ticker, and further consolidated to form our master table data. Postgres database was then connected our our machine learning ipynb file for further analysis for prediction and accuracy.
 
   ### Machine Learning
-  SciKitLearn and Tensorflow is the ML library utilized. Depending on what the data looks like after cleaning we will decide between a classification or a regression model. Machine Learning model diagram will be updated upon further discovery throughout the process.
+  SciKitLearn and Tensorflow is the ML library utilized. Machine Learning models utilized were `Linear Regression`, `Logistic Regression`, and `Artifical Neural Network`.
 
 
   ### Dashboard
