@@ -14,7 +14,13 @@ Presentation slides to capture project summary, selection journey, technology us
 ## Technology 
 
   ### Data Cleaning and Analysis
-  Excel csvs from Kaggle were used to import the data for tweet data, and Yahoo Finance for stock data. `Pandas` was to clean the data and perform an exploratory analysis. Further analysis and manipulation was completed using Python before the data was imported to our PostgresSQL database and connected to our machine learning model. 
+  Excel csvs from Kaggle were used to import the data for tweet data, and Yahoo Finance for stock data. `Pandas` was to clean the data and perform an exploratory analysis. Further analysis and manipulation was completed using Python before the data was imported to our PostgresSQL database and connected to our machine learning model.
+  
+  ## The Data 
+
+The data that will be used in this analysis include a csv with opening/closing information for all NASDAQ, S&P500, and NYSE listed companies which is updated weekly. There are also csv's for tweets about the stock tickers of each of the top five technology companies (Amazon, Tesla, Google, Apple, Microsoft) from years 2015 to 2020. The planned ERD for the database that will connect each of these data sources looks like: 
+
+![rough_stock_erd.png](Deliverable_1/ERD_v.1/rough_stock_erd.PNG)
 
   ### Database Storage
   The database utilized was PostgresSQL with pgadmin 4. Data collected from Kaggle and Yahoo Finance were cleaned during the pre-processing stages with `pandas` and brought into our environment. 5 Ticker tables were brought into our database, 1 for each ticker, and further consolidated to form our master table data. Postgres database was then connected our our machine learning ipynb file for further analysis for prediction and accuracy.
@@ -23,17 +29,79 @@ Presentation slides to capture project summary, selection journey, technology us
   SciKitLearn and Tensorflow is the ML library utilized. Machine Learning models utilized were `Linear Regression`, `Logistic Regression`, and `Artifical Neural Network`.
 
 
-  ### Dashboard
+  ### Dashboard and Analysis
   Our final Dashboard is LIVE and available on Tableau public with our findings and ML predictions. Analysis includes dynamic integrations between tweet, date, and stock ticker to provide visual grasp to our end users on how tweets and the stock exchange share a relationship in stock liquidity. Analysis of our findings include Tweet Impacts on Stock Prices and Examining Tweet Engagement. 
   
   **[Click Here to Visit Our Tableau Public Dashboard.](https://public.tableau.com/app/profile/tara.flynn/viz/Tweet_Stock_Analysis/Dashboard12?publish=yes)** 
 
-  
-## The Data 
+#### Tweet Volume
 
-The data that will be used in this analysis include a csv with opening/closing information for all NASDAQ, S&P500, and NYSE listed companies which is updated weekly. There are also csv's for tweets about the stock tickers of each of the top five technology companies (Amazon, Tesla, Google, Apple, Microsoft) from years 2015 to 2020. The planned ERD for the database that will connect each of these data sources looks like: 
+![tweet_volume.png](../analysis_images/tweet_volume.png) 
 
-![rough_stock_erd.png](Deliverable_1/ERD_v.1/rough_stock_erd.PNG)
+*Purpose:* Find which companies are receiving the most tweets and interactions. 
+
+*Analysis:* 
+- Sum of all tweets 2015-2019 
+- Color by sum of likes, comments, and retweets 
+
+#### Price Action Over Time 
+
+![heat_map.png](../analysis_images/heat_map.png) 
+
+*Purpose:* Identify the companies seeing the most change in daily price. 
+
+*Analysis:* 
+- Yearly sum of Price Action per Company 
+- Color based on Price Action 
+
+#### Scatter Plot of Tweet and Stock Volumes 
+
+![scatter_plot.png](../analysis_images/scatter_plot.png) 
+
+*Purpose:* Identify the correlation between twitter activity and stock liquidity to align with machine learning. 
+
+*Analysis:* 
+- Scatter plot of Tweet Volume against Stock Volume 
+- Size based on Tweet Volume 
+- Trend line to indicate linear correlation 
+- Color by company name 
+- URL Action to Explore Machine Learning 
+
+#### Twitter and Stock Volume Over Time 
+
+![volume_time.png](../analysis_images/volume_time.png)
+
+*Purpose:* Can we identify any spikes in the Twitter and Stock volumes. 
+
+*Analysis:* 
+- A bar chart of all Tweet Volume 
+- A line chart of Tweet Volume with colors by Company 
+- Both plotted again Month-Year dates 
+- URL Action to Explore Machine Learning
+
+#### Popular Authors 
+
+![pop_authors.png](../analysis_images/pop_authors.png) 
+
+*Purpose:* Identify Tweet authors that may be driving spikes in engagement. 
+
+*Analysis:* 
+- Bar chart of authors and count of tweets 
+- Bar chart of authors and sum of likes, comments, and retweets 
+- Sorted by Count of Tweets 
+- Color by company name 
+- Filter by date 
+
+#### Popular Tweets 
+
+![pop_tweets.png](../analysis_images/pop_tweets.png) 
+
+*Purpose:* Use bodies of popular Tweets to identify if any current events driving spikes in social media engagement. 
+
+*Analysis:* 
+- Heat map of Tweets with more than 1,000 combined retweets, likes, and comments 
+- Color and size by sum of engagement 
+- Filter by date 
 
 ## Machine Learning Model 
 
