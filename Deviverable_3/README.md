@@ -29,3 +29,15 @@ Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and bro
 
 - Description of current accuracy score
   - As mentioned above the current model yeilds an accuracy score of 97%. Meaning the model can predict if a given stock is liquid (above avg daily volume ) feeding the dataset with extreme accuracy. 
+
+### Dashboard and Analysis
+
+#### Tweet Volume
+
+![tweet_volume.png](analysis_images/tweet_volume.png) 
+
+Purpose: Find which companies are receiving the most tweets and interactions. 
+
+Analysis: 
+- Sum of all tweets 2015-2019 
+- Color by sum of likes, comments, and retweets 
