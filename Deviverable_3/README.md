@@ -1,10 +1,12 @@
 ## Deliverable 3
 
+The deliverable 3 folder contains work that were completed in the iteration progress from weeks 2 and 3. For the summary of the project as a whole, reference the main readme file uner `**Tweet_Stock_Analysis**`.
+
 ### Presentation Slides
 Updated presentation slides to capture project summary, selection journey, technology used, data exploration, data analysis, machine learning, data visualization, conclusion and iteration opportunities. **[Click Here to Access Presentation Slides](https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit?usp=sharing)**
 
 ### Database Connection
-Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and brought into our postgress sql database, `pgadmin 4`. Ticker tables (x5) were brought into our database and consolidated to form our master table data using postgres and connected to our ipynb file for machine learning.
+Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and brought into our postgress sql database, `pgadmin 4`. Ticker tables (x5) were brought into our database and consolidated to form our master table data using postgres and connected to our ipynb file for machine learning. This step added the connection requirement that was further clarified with our TA.
 
 
 ### Machine Learning 
