@@ -34,7 +34,7 @@ Data collected from Kaggle and Yahoo Finance were cleaned using `pandas` and bro
 
 #### Tweet Volume
 
-![tweet_volume.png](analysis_images/tweet_volume.png) 
+![tweet_volume.png](../analysis_images/tweet_volume.png) 
 
 Purpose: Find which companies are receiving the most tweets and interactions. 
 
