@@ -35,8 +35,6 @@ The data that will be used in this analysis include a csv with opening/closing i
 
 This analysis will use a neural network with Relu activation to model the correlation between volume of tweets and perception of tweets against the change in daily price. 
 
-The current plan for the model is: 
-
 **Description of preliminary data preprocessing:**
  - the data pre-processing was done by first summing up the # of tweets for the day as `tweet_activity`and keeping the `date`, `volume` and `price-anction` for each ticker. Then seperating each ticker into their own csv file and exporting it into the ML model.
 
