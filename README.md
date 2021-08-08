@@ -11,7 +11,7 @@ The purpose of this project is to analyze the correlation, if any, that engageme
 ## Presentation Slides
 
 The presentation can also be accessed to its direct google slides link through the link below.
-URL: https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit#slide=id.g7ce6850189_0_111
+URL: [Google Docs Presentation](https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit#slide=id.g7ce6850189_0_111)
 
 ## Technology 
 
