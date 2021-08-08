@@ -28,7 +28,7 @@ URL: [Google Docs Presentation](https://docs.google.com/presentation/d/1eiDhg26r
   ### Dashboard
   Our final Dashboard is LIVE and available on Tableau public with our findings and ML predictions. Analysis includes dynamic integrations between tweet, date, and stock ticker to provide visual grasp to our end users on how tweets and the stock exchange share a relationship in stock liquidity. Analysis of our findings include Tweet Impacts on Stock Prices and Examining Tweet Engagement. 
   
-  [Click Here to Visit Our Tableau Public Dashboard.] (https://public.tableau.com/app/profile/tara.flynn/viz/Tweet_Stock_Analysis/Dashboard12?publish=yes) 
+  [Click Here to Visit Our Tableau Public Dashboard.](https://public.tableau.com/app/profile/tara.flynn/viz/Tweet_Stock_Analysis/Dashboard12?publish=yes) 
 
   
 ## The Data 
