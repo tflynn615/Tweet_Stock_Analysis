@@ -21,9 +21,6 @@ The purpose of this project is to analyze the correlation, if any, that engageme
   SciKitLearn or Tensorflow will be  the ML library we'll be using. Depending on what the data looks like after cleaning we will decide between a classification or   a regression model. 
 
 
-  ### Dashboard
-  Our final Dashboard will be presented on Tableau with all the findings and ML predictions.
-
 ## The Data 
 
 The data that will be used in this analysis include a csv with opening/closing information for all NASDAQ, S&P500, and NYSE listed companies which is updated weekly. There are also csv's for tweets about the stock tickers of each of the top five technology companies (Amazon, Tesla, Google, Apple, Microsoft) from years 2015 to 2020. The planned ERD for the database that will connect each of these data sources looks like: 
@@ -37,10 +34,6 @@ This analysis will use a neural network with Relu activation to model the correl
 The current plan for the model is: 
 
 ![MM_Model.png](Deliverable_1/MM_Model.png)
-
-## Deliverable 3
-
-The deliverable 3 folder contains work that were completed in the iteration progress from weeks 2 and 3. For the summary of the project as a whole, reference the main readme file uner `**Tweet_Stock_Analysis**`.
 
 ### Presentation Slides
 Updated presentation slides to capture project summary, selection journey, technology used, data exploration, data analysis, machine learning, data visualization, conclusion and iteration opportunities. **[Click Here to Access Presentation Slides](https://docs.google.com/presentation/d/1eiDhg26rj6FX_s-b5r3N7FIJo1qq6LhwhcxKrEpWc80/edit?usp=sharing)**
