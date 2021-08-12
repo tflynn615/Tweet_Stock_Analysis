@@ -28,7 +28,7 @@ The ERD for the database that will connect each of these data sources is shown b
 
 
   ### Dashboard and Analysis
-  Our final Dashboard is LIVE and available on Tableau public with our findings and ML predictions. Analysis includes dynamic integrations between tweet, date, and stock ticker to provide visual grasp to our end users on how tweets and the stock exchange share a relationship in stock liquidity. Analysis of our findings include Tweet Impacts on Stock Prices and Examining Tweet Engagement. We chose to do our analysis and final visualizations because we knew that it is a tool popular with many business like the brokerages who might find this model useful, so we planned to make a professional dashboard that would be easy to adopt given its similarity to their native tooling within the client technology ecosystem. 
+  Our final Dashboard is LIVE and available on Tableau public with our findings and ML predictions. Analysis includes dynamic integrations between tweet, date, and stock ticker to provide visual grasp to our end users on how tweets and the stock exchange share a relationship in stock liquidity. Analysis of our findings include Tweet Impacts on Stock Prices and Examining Tweet Engagement. We chose to do our analysis and final visualizations in Tableau because we knew that it is a tool popular with many business like the brokerages who might find this model useful, so we planned to make a professional dashboard that would be easy to adopt given its similarity to their native tooling within the client technology ecosystem. 
 
 
 #### Dashboard Pre-Construction
