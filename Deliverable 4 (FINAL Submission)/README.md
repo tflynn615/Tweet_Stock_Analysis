@@ -18,7 +18,7 @@ Twitter and its impact on the Stock Market was selected by our group after delib
 
 The ERD for the database that will connect each of these data sources is shown below.
 
-![rough_stock_erd.png](Deliverable_1/ERD_v.1/rough_stock_erd.PNG)
+![rough_stock_erd.png](../Deliverable_1/ERD_v.1/rough_stock_erd.PNG)
 
   ### Database Storage
   The database utilized was PostgresSQL with pgadmin 4. Data collected from Kaggle and Yahoo Finance were cleaned during the pre-processing stages with `pandas` and brought into our environment. 5 Ticker tables were brought into our database, 1 for each ticker, and further consolidated to form our master table data. Postgres database was then connected our our machine learning ipynb file for further analysis for prediction and accuracy.
