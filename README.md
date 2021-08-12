@@ -8,6 +8,9 @@ The purpose of this project is to analyze the correlation, if any, that engageme
  - Can we predict how much a stock will sell based on how it's trending on social media?
  - Does tweets impact price action?
 
+## Project Selection Journey
+Twitter and its impact on the Stock Market was selected by our group after deliberating a few other potential options such as NBA Team win predeictions, student housing/multi-family tenant geotracking, and the Austin housing market with migration patterns and home cost growth. After taking into considerations of a 5 week time constraint, data limitations from source, and group interests, our topic was chosen. To find the full selection model, you can **[CLICK HERE](https://github.com/tflynn615/Tweet_Stock_Analysis/blob/main/Sam/Project%20Topic%20Selection%20Journey.png)** to view the objective, and limitation details.
+
 ## Technology 
 
   ### Data Cleaning and Analysis
