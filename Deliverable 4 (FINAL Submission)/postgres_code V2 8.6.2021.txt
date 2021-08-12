@@ -1,0 +1,129 @@
+--Creating Stock Ticker tables for each (Apple, Google, Amazon, Microsoft,and Tesla). Columns are Date, Open, High, Low, Close, Volume, tweet_count, price_action, Ticker, Percent_Change
+
+CREATE TABLE final_ap (
+	Date Date NOT NULL,
+	Open Decimal NOT NULL,
+	High Decimal NOT NULL,
+	Low Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Volume Int NOT NuLL,
+	tweet_count Int NOT NULL,
+	price_action Decimal NOT NULL,
+	Ticker VARCHAR NOT NULL,
+	Percent_Change Decimal NOT NULL
+);
+
+SELECT * FROM final_ap;
+
+
+CREATE TABLE final_go (
+	Date Date NOT NULL,
+	Open Decimal NOT NULL,
+	High Decimal NOT NULL,
+	Low Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Volume Int NOT NuLL,
+	tweet_count Int NOT NULL,
+	price_action Decimal NOT NULL,
+	Ticker VARCHAR NOT NULL,
+	Percent_Change Decimal NOT NULL
+);
+
+SELECT * FROM final_go;
+
+CREATE TABLE final_amzn (
+	Date Date NOT NULL,
+	Open Decimal NOT NULL,
+	High Decimal NOT NULL,
+	Low Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Volume Int NOT NuLL,
+	tweet_count Int NOT NULL,	
+	price_action Decimal NOT NULL,
+	Ticker VARCHAR NOT NULL,
+	Percent_Change Decimal NOT NULL
+);
+
+SELECT * FROM final_amzn;
+
+CREATE TABLE final_msft (
+	Date Date NOT NULL,
+	Open Decimal NOT NULL,
+	High Decimal NOT NULL,
+	Low Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Volume Int NOT NuLL,
+	tweet_count Int NOT NULL,	
+	price_action Decimal NOT NULL,
+	Ticker VARCHAR NOT NULL,
+	Percent_Change Decimal NOT NULL
+);
+
+SELECT * FROM final_msft;
+
+CREATE TABLE final_tsla (
+	Date Date NOT NULL,
+	Open Decimal NOT NULL,
+	High Decimal NOT NULL,
+	Low Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Volume Int NOT NuLL,
+	tweet_count Int NOT NULL,	
+	price_action Decimal NOT NULL,
+	Ticker VARCHAR NOT NULL,
+	Percent_Change Decimal NOT NULL
+);
+
+SELECT * FROM final_tsla;
+
+--Create consolidated table to use with UNION
+
+CREATE TABLE final_consolidated (
+	Date Date NOT NULL,
+	Open Decimal NOT NULL,
+	High Decimal NOT NULL,
+	Low Decimal NOT NULL,
+	Close Decimal NOT NULL,
+	Volume Int NOT NuLL,
+	tweet_count Int NOT NULL,	
+	price_action Decimal NOT NULL,
+	Ticker VARCHAR NOT NULL,
+	Percent_Change Decimal NOT NULL
+);
+
+--Using UNION function to combine all ticker database tables.
+
+SELECT * FROM final_amzn
+UNION
+SELECT * FROM final_ap
+UNION
+SELECT * FROM final_go
+UNION
+SELECT * FROM final_msft
+UNION
+SELECT * FROM final_tsla;
+
+--Created a new table 'final_consolidated' using the union function to combine all individual stock ticker data with tweets.
+
+CREATE TABLE final_consolidated AS
+	SELECT * FROM final_amzn
+	UNION
+	SELECT * FROM final_ap
+	UNION
+	SELECT * FROM final_go
+	UNION
+	SELECT * FROM final_msft
+	UNION
+	SELECT * FROM final_tsla;
+
+SELECT * FROM final_consolidated;
+
+--Export final consolidated table to CSV
+
+SELECT rolname, rolsuper FROM pg_roles;
+
+ALTER USER samc WITH SUPERUSER;
+
+COPY public."final_consolidated" TO 'C:\Users\SamChoi\Desktop\clone\working branch\Resources\database' DELIMITER ',' csv HEADER;
+
+--
