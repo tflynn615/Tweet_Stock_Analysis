@@ -32,13 +32,13 @@ The ERD for the database that will connect each of these data sources is shown b
 
 
 #### Dashboard Pre-Construction
-![dashboard_planning.png](analysis_images/dashboard_planning.png)
+![dashboard_planning.png](../analysis_images/dashboard_planning.png)
 
 The purpose of this initial outline was to identify a framework of worksheets and interactive elements to portray key stories using data analysis of Twitter's impact on NASDAQ Stocks. Analysis includes dynamic integrations between tweet, date, and stock ticker to provide visual grasp to our end users on how tweets and the stock exchange share a relationship in stock liquidity. Analysis of our findings include Tweet Impacts on Stock Prices and Examining Tweet Engagement. 
 
 #### Tweet Volume
 
-![tweet_volume.png](analysis_images/tweet_volume.png) 
+![tweet_volume.png](../analysis_images/tweet_volume.png) 
 
 *Purpose:* Find which companies are receiving the most tweets and interactions. 
 
@@ -50,7 +50,7 @@ We can see that Apple has the most tweets about their stock ticker while tweets 
 
 #### Price Action Over Time 
 
-![heat_map.png](analysis_images/heat_map.png) 
+![heat_map.png](../analysis_images/heat_map.png) 
 
 *Purpose:* Identify the companies seeing the most change in daily price. 
 
@@ -62,7 +62,7 @@ The companies with the most negative and positive daily change in price (respect
 
 #### Scatter Plot of Tweet and Stock Volumes 
 
-![scatter_plot.png](analysis_images/scatter_plot.png) 
+![scatter_plot.png](../analysis_images/scatter_plot.png) 
 
 *Purpose:* Identify the correlation between twitter activity and stock liquidity to align with machine learning. 
 
@@ -77,7 +77,7 @@ In this scatter plot, we saw a strong correlation between the amount of tweets a
 
 #### Machine Learning Scatter Plot
 
-![ml_scatter.png](analysis_images/ml_scatter.png) 
+![ml_scatter.png](../analysis_images/ml_scatter.png) 
 
 *Purpose:* Identify how the Machine Learning predictions compare to each other and with the initial scatter plot done in analysis.  
 
@@ -90,7 +90,7 @@ We can then evaluate how the scatter plot changes when using the resulting data 
 
 #### Twitter and Stock Volume Over Time 
 
-![volume_time.png](analysis_images/volume_time.png)
+![volume_time.png](../analysis_images/volume_time.png)
 
 *Purpose:* Can we identify any spikes in the Twitter and Stock volumes. 
 
@@ -105,7 +105,7 @@ From there, we wanted to see if we could identify any spikes in the volune of Tw
 
 #### Popular Tweets 
 
-![pop_tweets.png](analysis_images/pop_tweets.png) 
+![pop_tweets.png](../analysis_images/pop_tweets.png) 
 
 *Purpose:* Use bodies of popular Tweets to identify if any current events driving spikes in social media engagement. 
 
